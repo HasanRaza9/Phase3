@@ -1,0 +1,12 @@
+create database sportyshoes;
+
+use sportyshoes;
+
+create table User(userID integer AUTO_INCREMENT primary key, User_name varchar(450), Password varchar(30),email varchar(450), phone_number integer );
+
+create table product(product_Id integer AUTO_INCREMENT primary key, product_Name varchar(450), season varchar(450), brand varchar(450), category varchar(450), 
+price integer, color varchar(450), created_Date date, discount varchar(450) , quantity integer);
+
+create table product_order(Id integer AUTO_INCREMENT primary key,user_ID integer,product_Id integer);
+
+create table admin(id integer AUTO_INCREMENT primary key,admin_id varchar(50),admin_pwd varchar(30));

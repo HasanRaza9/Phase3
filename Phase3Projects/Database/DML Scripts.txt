@@ -1,0 +1,34 @@
+
+insert into user(user_Name,password,email,phone_number)values('testUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('ImranUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('AfsifUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('NawazUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('kashifUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('amirUser','hellopass','test@gmail.com',848484343);
+insert into user(user_Name,password,email,phone_number)values('yasirUser','hellopass','test@gmail.com',848484343);
+
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('pents','spring','niki','male',500,'blue',10,100,'2022-08-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shirts','summer','puma','female',300,'blue',10,100,'2022-09-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shoes','winter','adidas','male',200,'black',10,100,'2022-09-30');
+
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('pents','spring','niki','male',300,'blue',10,100,'2022-08-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shirts','summer','puma','female',300,'blue',10,100,'2022-09-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shoes','winter','adidas','male',300,'black',10,100,'2022-09-30');
+
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('pents','spring','niki','male',300,'blue',10,100,'2022-08-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shirts','summer','puma','female',300,'blue',10,100,'2022-09-30');
+insert into product(product_Name, season,brand,category,price,color,discount,quantity,created_Date)values('shoes','winter','adidas','male',300,'black',10,100,'2022-09-30');
+
+
+insert into product_order(user_Id,product_Id)values(1,2);
+insert into product_order(user_Id,product_Id)values(2,4);
+insert into product_order(user_Id,product_Id)values(3,1);
+insert into product_order(user_Id,product_Id)values(1,2);
+insert into product_order(user_Id,product_Id)values(2,4);
+insert into product_order(user_Id,product_Id)values(3,1);
+insert into product_order(user_Id,product_Id)values(1,2);
+insert into product_order(user_Id,product_Id)values(2,4);
+insert into product_order(user_Id,product_Id)values(3,1);
+
+
+insert into admin(admin_id,admin_pwd)values('testAdmin','testrrr');
